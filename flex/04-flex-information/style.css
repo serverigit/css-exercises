@@ -24,3 +24,28 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* SOLUTION */
+
+/* div {
+  border: solid;
+} */
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+body {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  margin: 32px;
+}
+
+.text-wrap {
+  max-width: 200px;
+}
